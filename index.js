@@ -16,7 +16,10 @@ for (let age = 30; age < 40; age++) {
 
   wrapGifts(gifts);
 
-function writeCards(names, event) { const cards = []; for (let i = 0; i < names.length; i++) { const message = `Thank you, ${names[i]}, for the wonderful ${event} gift!`; cards.push(message); } return cards;
+function writeCards(names, event) {
+   const cards = []; for (let i = 0; i < names.length; i++) {
+     const message = `Thank you, ${names[i]}, for the wonderful ${event} gift!`;
+     cards.push(message); } return cards;
 }
 
 const names = ["Guadalupe", "Ollie", "Aki"];
@@ -33,7 +36,9 @@ function plantGarden() {
       keepWorking = checkForMoreSeeds();
     }
   }
-  function countDown(number) { for (let i = number; i >= 0; i--) { console.log(i); }
+  function countDown(number) {
+    for (let i = number; i >= 0; i--)
+    { console.log(i); }
 }
 
 countDown(5);
